@@ -8,11 +8,10 @@
 
 本仓库将包含实现轻量级实时渲染参数优化方法的代码和工具。本文提出的优化方法基于XGBoost模型和查找表（LUT），能够自动调整渲染参数以在保持渲染质量的同时减少渲染时间。
 
-## 仓库结构
+## 仓库结构(to do)
 
-- `/src/` - 实现渲染优化方法的源代码（待上传）
-- `/model_training/` - 训练的XGBoost模型代码（待上传）
-- `/docs/` - 文档，包括设置说明和方法介绍（待上传）
+- `/src/` - 实现渲染优化方法的源代码
+- `/model_training/` - 训练的XGBoost模型代码
 
 ## 环境需求
 
@@ -20,3 +19,12 @@
 
 - Unreal Engine 4.27
 - Python 3.7
+
+## 运行方法
+
+本项目使用Python脚本对UE中的设置进行控制，为了将Python集成到UE中，使Python脚本能在UE中运行，需要使用插件[UnrealEnginePython](https://github.com/20tab/UnrealEnginePython)，使用方法详见：https://github.com/20tab/UnrealEnginePython。
+
+安装插件后，生成Visualstudio项目文件，编译后即可在关卡中运行效果
+
+
+
